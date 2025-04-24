@@ -1,0 +1,28 @@
+README.readme
+
+Anastasia Pupo
+April 2025
+CS 5330
+Final Project 
+
+Project Description: Training CNNs to recognize 10 different types of practical knots.
+
+Operating System: macOS Ventura Version 13.5
+IDE: Jupyter Notebook
+Link to presentation: https://youtu.be/jGV00_u544k
+
+Source code files:
+training.ipynb - Contains code related to downloading the dataset, preprocessing images, and 3 different convolutional neural networks.
+transferLearnRESNET50.ipynb - Contains code related to downloading the dataset, downloading the pre-trained ResNet50 model, and transfer learning to train a model to recognize knots.
+
+Program Instructions:
+Tensorflow is utilized and the latest versions of Python may not support tensorflow. Required installation of Python 3.10
+
+The 10Knots Dataset may be downloaded at https://www.kaggle.com/datasets/josephcameron/10knots 
+Once dataset and all requirements have been installed. For example, may need to install matplotlib and tensor flow. Jupyter notebook would need to be opened as the files are Jupyter notebooks.
+
+In training.ipynb, there are 3 models. 2 models are commented out. To switch models, currently requires uncommenting the desired model then commenting out the current model.
+
+Additionally, model version to save the model would need to be adjusted.
+
+Can run the program by either Restarting Kernel and running all cells or can just run all cells.
